@@ -3,9 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Bài 22.3 độ ưu tiên của inline, internal, external</title>
   </head>
   <body>
-    <h1>Bài 22.3</h1>
+    <!-- 
+    ưu tiên từ cao đến thấp
+    ưu tiên đầu tiên: inline
+    còn internal, external cái nào viết sau sẽ ghi đè lên cái viết trước
+    (đứa nào viết sau đứa đấy mạnh hơn)-->
+    <a
+      href="https://www.youtube.com/watch?v=IX8IIgtG378&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=38"
+    >
+      link bài học</a
+    >
+    <h1>
+      Bài 22.3 dộ ưu tiên của inline (css nội tuyến), internal(css nội bộ),
+      external(css bên ngoài)
+    </h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</p>
   </body>
 </html>
