@@ -23,3 +23,6 @@ emmets
 truy cập trang code beautify tìm html escape
 để chuyển code thành các kí hiệu mà trang web đọc được đây
 là code bạn đang viết
+
+ <!--
+    Caniuse.com: trang web hỗ trợ kiểm tra thuộc tính CSS có cần sử dụng thêm prefix để hỗ trợ đa trình duyệt-->
