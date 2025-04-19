@@ -1,0 +1,18 @@
+h1 {
+  color: blue;
+}
+/* animaltion: có opacity, vibisility */
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  /*1. muốn biến khỏi giao diện và không chiếm chỗ*/
+  /* display: none; */
+
+  /* 2. muốn biên khỏi giao diện nhưng vẫn chiếm chỗ */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  /* 3. làm mờ đi và không tương tác được */
+  opacity: 0;
+  visibility: hidden;
+}
