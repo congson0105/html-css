@@ -3,7 +3,8 @@ body {
 }
 h2.title {
   color: red;
+  font-family: "Courier New", Courier, monospace;
 }
 h3.title {
-  color: blue;
+  color: red;
 }
