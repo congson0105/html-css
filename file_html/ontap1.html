@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ôn tập kiến thức</title>
+    
+    <link rel="stylesheet" href="/file_css/styleontap.css">
+    <style>h1{color: cornsilk;}</style>
+  </head>
+  <body>
+    <!--1. git và git hub-->
+    <h1 style="color: blue;">1. git và git hub</h1>
+    <h1>2. thẻ code</h1>
+    <code>&lt;p &gt;</code>
+    <!--table
+    1. table header: phần đầu cũng là phần chứa ô tiêu đề -> thead
+    2. table body: phần thân cũng là phần chứa nội dụng -> tbody
+    3. table footer : định nghĩa phần cuối của bảng -> tfoot
+    trong bảng có các phần tử
+    table header: định nghĩa 1 ô tiêu đề -> th
+    table data: định nghĩa 1 ô dữ liệu -> td
+    table row: định nghĩa 1 hàng-> tr
+
+    rowspan: định nghĩa 1 ô có bao nhiêu hàng ngang
+    colspan: định nghĩa 1 ô có bao nhiêu cột
+
+    -->
+    <table>
+      <tr>
+        <td rowspan="2">Bảng 1</td>
+        <td>Số tiền lãi(nghìn đồng)</td>
+        <td>[30;40]</td>
+        <td>[40;50]</td>
+        <td>[50;60]</td>
+        <td>[60;70</td>
+      </tr>
+      <tr>
+        <td>Số ngày</td>
+        <td>5</td>
+        <td>3</td>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Bảng 2</td>
+        <td>Số tiền lãi (nghìn đồng)</td>
+        <td>[30;40]</td>
+        <td>[40;50]</td>
+        <td>[50;60]</td>
+        <td>[60;70]</td>
+      </tr>
+      <tr>
+        <td>Số ngày</td>
+        <td>5</td>
+        <td>3</td>
+        <td>4</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Bảng 3</td>
+        <td>Số tiền lãi(nghìn đồng)</td>
+        <td>[30;40]</td>
+        <td>[40;50]</td>
+        <td>[50;60]</td>
+        <td>[60;70]</td>
+      </tr>
+      <tr>
+        <td>Số ngày</td>
+        <td>5</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Bảng 4</td>
+        <td>Số tiền lãi(nghìn đồng)</td>
+        <td>[30;40]</td>
+        <td>[40;50]</td>
+        <td>[50;60]</td>
+        <td>[60;70]</td>
+      </tr>
+      <tr>
+        <td>Số ngày</td>
+        <td>3</td>
+        <td>5</td>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>STT</th>
+          <pre> <th>Year</th></pre>
+          <th>County</th>
+          <th>GDP</th>
+          <th>Population</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2014</td>
+                <td>VietNam</td>
+                <td>70</td>
+                <td>176</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2015</td>
+                <td>VietNam</td>
+                <td>80</td>
+                <td>174</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2016</td>
+                <td>VietNam</td>
+                <td>76</td>
+                <td>174</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2017</td>
+                <td>VietNam</td>
+                <td>75</td>
+                <td>176</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2014</td>
+                <td>ThaiLan</td>
+                <td>71</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>2015</td>
+                <td>ThaiLan</td>
+                <td>70</td>
+                <td>176</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>2016</td>
+                <td>ThaiLan</td>
+                <td>71</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>2017</td>
+                <td>ThaiLan</td>
+                <td>73</td>
+                <td>172</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>2014</td>
+                <td>Malaysia</td>
+                <td>74</td>
+                <td>174</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>2015</td>
+                <td>Malaysia</td>
+                <td>74</td>
+                <td>178</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>2016</td>
+                <td>Malaysia</td>
+                <td>73</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>2017</td>
+                <td>Malaysia</td>
+                <td>74</td>
+                <td>172</td>
+            </tr>
+        </tbody>
+      </thead>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Năm</th>
+                <th rowspan="2">Tổng số</th>
+                <th colspan="2">Chia ra</th>
+            </tr>
+            <tr><th>Khai thác</th>
+            <th>Nuôi trồng</th></tr>
+        </thead>
+       <tbody>
+        <tr><td>2005</td>
+        <td>346.8</td>
+        <td>1987.9</td>
+        <td>1478.9</td></tr>
+       </tbody>
+    </table>
+    <hr>
+    <hr>
+   <h4>opacity, display, visibility</h4>
+   <h4 id="h41">luyện opacity</h4>
+   <h4 class="h42">luyện <span>display</span></h4>
+   <h5 class="h42">luyện visibility</h5>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  font-size: 50px;
+  color: chartreuse;
+}
+h4 {
+  /* opacity: 0%; */
+  /* display: none; */
+  /* visibility: hidden; */
+  color: azure;
+}
+#h41 {
+  color: aqua;
+}
+h5.h42 {
+  color: coral;
+}
