@@ -7,9 +7,15 @@ h1 + h2 {
 } */
 
 /* S2 ~ S1 */
-h1 ~ h3 {
+/* h1 ~ h3 {
   color: blue;
 }
 div ~ div {
+  color: red;
+} */
+/* div > p {
+  color: crimson;
+} */
+h1 ~ h2 {
   color: red;
 }
