@@ -1,0 +1,50 @@
+/* h3,
+p {
+  color: cyan;
+}
+
+.bai23 {
+  color: coral;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+} */
+/* .opacity {
+  opacity: 100%;
+}
+.display {
+  display: none;
+}
+.vibicility {
+  visibility: hidden;
+} */
+
+/* * {
+  color: red;
+} */
+/* h2.display {
+  color: aqua;
+} */
+/* .bai28.bai29 {
+  color: aquamarine;
+} */
+/* div > p {
+  color: brown;
+  font-size: 30px;
+} */
+/* chọn h3 ngay sau h2 */
+/* h2 + h3 {
+  color: brown;
+} */
+/* .demo.demo2 + h3 {
+  color: brown;
+} */
+
+/* chon tất cả thẻ a ngay sau thẻ div */
+h1 ~ h3 {
+  color: blue;
+}
+h1 ~ div {
+  color: brown;
+}
