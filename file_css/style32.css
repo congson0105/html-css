@@ -1,0 +1,60 @@
+/* [href] {
+  color: brown;
+}
+[target="_blank"] {
+  color: blue;
+} */
+
+/* chọn tất cả các thuộc tính title có chứa từ tuhoc.cc 
+cú pháp: [attribute ~= value]
+*/
+/* [title~="tuhoc.cc"] {
+  color: blue;
+} */
+
+/* chọn tất cả các thuộc tính title cứ có chứa tuhoc.cc  
+cú pháp: [attribute *= value]
+*/
+/* [title*="tuhoc.cc"] {
+  color: red;
+} */
+
+/* chọn thuộc tính title có chứ bắt đầu bằng từ pic, pic-3 thì cũng được 
+còn pic 2, pic 3 thì không được 
+cú pháp: [attribute |= value]
+*/
+/* [title|="pic"] {
+  color: red;
+} */
+
+/* chọn tất cả các thuộc tính title có giá trị bắt đầu bằng pic (không quan tâm phía sau pic là gì) 
+cú pháp: [attribute ^= value]*/
+/* [title^="pic"] {
+  color: green;
+} */
+
+/* [title$="4"] {
+  color: pink;
+} */
+
+/* chọn tất cả các thuộc tính href để đổi màu đỏ
+[href] {
+  color: rgb(240, 20, 49);
+} */
+/* chọn tất cả các thuộc tính target có giá trị _blank để đổi màu
+[target="_blank"] {
+  color: aqua;
+} */
+
+/* chọn tât cả các thuộc tính title có chứa giá trị son để đổi màu*/
+/* [title~="son"] {
+  color: crimson;
+} */
+/* chọn tất cả thuộc tính title có giá trị bắt đầu bằng son thì đổi màu không quan trọng phí sau son là gì */
+/* [title^="son"] {
+  color: coral;
+} */
+/* chọn tất cả các thuộc tính title có giá trị kết thúc bằng 3 để đổi màu */
+[title$="3"] {
+  color: brown;
+}
