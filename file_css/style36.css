@@ -1,0 +1,35 @@
+/* chọn phần tử con đầu tiên */
+/* p:first-child {
+  color: red;
+} */
+
+/* chọn phần tử con cuối cùng */
+/* p:last-child {
+  color: green;
+} */
+
+/* 
+chọn phần tử con thứ 2 tính từ trên xuống */
+/* p:nth-child(2) {
+  color: orange;
+} */
+
+/* chọn phần tử con thứ 2 tính từ dưới lên */
+/* p:nth-last-child(2) {
+  color: pink;
+} */
+
+/* chọn các phần tử con p đổi màu theo n chẵn, tính từ trên xuống */
+/* p:nth-child(even) {
+  color: blue;
+} */
+
+/* chọn các phẩn tử con p đổi màu theo n lẻ, tính từ trên xuống */
+/* p:nth-child(odd) {
+  color: blue;
+} */
+
+/* chọn các thẻ p là thẻ con duy nhất */
+/* p:only-child {
+  color: deeppink;
+} */
