@@ -1,0 +1,32 @@
+/* chọn thẻ p đầu tiên để đổi màu, nhưng trong trường hợp này
+p đứng thứ 2 không áp dụng được */
+/* p:first-child {
+  color: red;
+} */
+/* chỉ xét cùng loại là thẻ p
+chọn thẻ p con đầu tiên trong thẻ cha */
+/* p:first-of-type {
+  color: blue;
+} */
+
+/* last of type chỉ quan tâm đến cùng loại( ở đây là h2)
+thì trong trường hợp này h2: tiêu đề 3: chính là thẻ cuối cùng từ dưới lên */
+/* h2:last-of-type {
+  color: pink;
+} */
+
+/* chọn các thẻ p xuất hiện thứ n trong thẻ cha  */
+/* p:nth-of-type(2) {
+  color: red;
+} */
+
+/* chọn các thẻ p xuất hiện thứ 3 từ dưỡi lên */
+/* p:nth-last-of-type(3) {
+  color: blue;
+} */
+/* chọn các thẻ p xuất hiện duy nhất trong thẻ
+có các loại thẻ khác cũng không ảnh hưởng
+chỉ cần p là duy nhất */
+/* p:only-of-type {
+  color: blue;
+} */
