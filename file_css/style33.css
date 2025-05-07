@@ -1,0 +1,77 @@
+/* chọn thẻ p có psedo-class hover - di chuột qua chữ sẽ đổi thành màu đỏ
+Tác dụng lên selector khi di chuột qua */
+/* p:hover {
+  color: red;
+} */
+
+/* active: nhấp dữ chuột vào thẻ, class được sử dụng css
+Tác dụng lên seclector khi nhấp giữ chuột */
+/* p:active {
+  color: red;
+} */
+
+/* cú pháp: seclector : link
+hiển thị màu link khi chưa click lần nào
+ví dự như click_me khi chưa click sẽ màu đỏ
+nếu đã từng click 1 lần thì không còn màu đỏ nữa mà sẽ là màu khác
+khi này không còn là link nữa là visited( dùng cho đã từng truy cập) */
+/* .click_me:link {
+  color: red;
+} */
+
+/* cú pháp: seclector : visited
+hiển thị màu của link khi đã bị truy cập
+ví dụ dưới click_me ban đầu là màu xanh
+khi bị truy cập thì đường link hiển thị thành màu cyan thông báo là đã truy cập */
+/* .click_me:visited {
+  color: cyan;
+}
+.nhapvao:link {
+  color: chartreuse;
+} */
+
+/* cú pháp
+selector:empty
+chỉ chọn vào các thẻ trống không có gì để đổi màu */
+/* .div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.div_elm {
+  color: red;
+} */
+
+/* dùng để chỉ đến phần tử được chọn, và làm đổi màu phần tử đang được chỉ đến */
+/* h2:target {
+  color: red;
+} */
+
+/* .hover:hover {
+  color: red;
+} */
+
+/* .active:active {
+  color: green;
+} */
+/* .link2:link {
+  color: red;
+}
+.link2:visited {
+  color: green;
+} */
+/* .empty2:empty {
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+} */
+
+/* #mobai2:target {
+  color: yellow;
+}
+#thanbai2:target {
+  color: purple;
+}
+#ketbai2:target {
+  color: orange;
+} */
