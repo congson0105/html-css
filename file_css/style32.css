@@ -55,6 +55,36 @@ cú pháp: [attribute ^= value]*/
   color: coral;
 } */
 /* chọn tất cả các thuộc tính title có giá trị kết thúc bằng 3 để đổi màu */
-[title$="3"] {
+/* [title$="3"] {
   color: brown;
+} */
+/* [title="ontap"] {
+  color: orange;
+} */
+
+/* chọn tất cả các thẻ có thuộc tính title chứa giá trị ontap
+các từ ontap123 thì không hợp lệ nhưng ontap 123 hợp lệ  */
+/* [title~="ontap"] {
+  color: red;
+} */
+
+/* chọn tất cả các thuộc tính title cứ có chứa giá trị ontap là đổi màu */
+/* [title*="ontap"] {
+  color: orange;
+} */
+
+/* chọn tất cả các thẻ có thuộc tính : bắt đầu bằng từ ontap, duy nhất ontap, ontap-123 cũng được
+còn ontap_123 thì không được */
+/* [title|="ontap"] {
+  color: red;
+} */
+
+/* chọn tất cả các thẻ có thuộc tính: 1. title bắt đầu bằng từ on tap, 
+còn nếu từ ontap ở giữa hay sau cùng đều không thỏa mãn */
+/* [title^="ontap"] {
+  color: red;
+} */
+/* chọn tất cả các thẻ có thuộc tính title và có giá trị kết thúc 123 */
+[title$="123"] {
+  color: green;
 }
