@@ -1,0 +1,5 @@
+/* chọn tất cả các thẻ ngoại trừ thẻ p 
+cú pháp: selector :not(selector)*/
+/* .demo:not(p) {
+  color: red;
+} */
