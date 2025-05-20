@@ -1,0 +1,30 @@
+/* bài tập về margin */
+/* .box {
+  width: 210px;
+  height: 200px;
+  background-color: red;
+  padding: 10px 20px 30px 40px;
+  border: 10px solid blue;
+  margin: 20px;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding: 20px;
+}
+
+.box1 {
+  border: 10px solid blue;
+}
+
+.box2 {
+  border: 10px solid green;
+  margin-left: 160px;
+}
+
+.box3 {
+  border: 10px solid yellow;
+  margin-left: 320px;
+}
