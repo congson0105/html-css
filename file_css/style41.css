@@ -1,0 +1,35 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+  padding: 30px;
+
+  /* css border trong w3 để xem các viền */
+  /* viền */
+  border: 10px solid blue;
+
+  /* tách boder thành 3 phần riêng dễ chỉnh hơn */
+  /* border-width: 20px 30px 40px 50px;
+  border-style: solid double;
+  border-color: blue green; */
+
+  /* bo viền 4 góc */
+  /* border-radius: 10px; */
+
+  /* bo viền góc  trên bên trái */
+  border-top-left-radius: 20px;
+
+  /* bo viền góc trên bên phải */
+  border-top-right-radius: 30px;
+
+  /* bo viền góc dưới bên trái*/
+  border-bottom-left-radius: 30px;
+
+  /* bo viền góc dưới bên phải */
+  border-bottom-right-radius: 35px;
+
+  /* cách viết này 10px đầu tiên là góc tên bên trái - góc dưới bên phải
+  20px góc tên bên phải - góc dưới bên trái */
+  border-radius: 10px 20px;
+}
