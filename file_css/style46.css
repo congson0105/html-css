@@ -1,0 +1,16 @@
+.outline1 {
+  width: 200px;
+  height: 200px;
+  /* padding: 20px; */
+  border: 10px solid red;
+  /* không áp dụng được vẽ theo nhiều chiều như bodder
+  kiểu viết rõ borde-width, border-style, border-color */
+  outline: 60px solid blue;
+
+  /* thêm thuộc tính outline-offset làm tăng khoảng cách giữa border và outline */
+  outline-offset: 10px;
+
+  /* nếu không có border: outline tính từ phần từ tính được hất ra
+   */
+  margin: 40px;
+}
