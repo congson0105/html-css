@@ -1,0 +1,33 @@
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #b4b4b4;
+  margin-left: -70px;
+}
+.avatar:first-child {
+  margin: 0px;
+}
+.content {
+  background-color: yellow;
+  padding: 40px;
+}
+
+.ontap1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 10px solid blue;
+  border-width: 20px;
+  border-style: double;
+  border-color: yellow;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+.ontap2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 10px solid blue;
+  padding: 20px 30px;
+}
